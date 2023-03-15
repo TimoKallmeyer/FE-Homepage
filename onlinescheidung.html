@@ -1,0 +1,350 @@
+<!--HTML5 Rework-->
+<html>
+  <head>
+   <!---
+   <base href="http://www.rechtsanwaeltin-lilienthal.de/" target="_blank">
+   --->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="UTF-8" />
+   
+   <link rel="stylesheet" type="text/css" href="style.css">
+   
+  </head>
+  <body>
+   <header>
+       <object data="Logo.svg" type="image/svg+xml" id="logo">Das Logo kann leider nicht dargestellt werden.</object>
+      <!--- Anwaltskanzlei</br>Rechtsanwältin & Fachanwältin für Familienrecht --->
+      <div class="small-contact"><p>Hauptstraße 84, 28865 Lilienthal</br>
+       &#9742; 04298 - 468 0 990</br>
+       &#9993; <a href="mailto:eickhoff-b@gmx.de">eickhoff-b@gmx.de</a></p></div>
+    
+    <nav>
+     <ul>
+      <li><a href="index.html">Startseite</a></li>
+      <li><a href="familienrecht.html">Familienrecht</a></li>
+      <li><a href="zivilrecht.html">Zivilrecht</a></li>
+      <li><a href="kosten.html">Kosten</a></li>
+      <li><a href="onlinescheidung.html">Online-Scheidung</a></li>
+      <li><a href="kanzlei_kontakt.html">Kanzlei & Kontakt</a></li>
+      <li><a href="links.html">Links</a></li>
+      <li><a href="lebenslauf.html">Lebenslauf</a></li>
+     </ul>
+    </nav>
+   </header>
+
+    <article>
+     <h1>Online-Scheidung</h1>
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
+      aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
+      takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
+      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores 
+      et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</br>
+      Bitte beachten Sie, dass alle mit (*) gekennzeichneten Felder ausgefüllt sein müssen.</p>
+      <form action="mailto:timo.kallmeyer@ewetel.net" method="post" enctype="multipart/form-data">
+       <h2>A. Persönliche Daten der Eheleute</h2>
+       <fieldset>
+        <h3>I. Ehefrau:</h3>
+        <p>
+         <label for="nachname-frau">1. Nachname *</label>
+         <input type="text" name="nachname-frau" placeholder="Nachname" size="40" required>
+        </p>
+        <p>
+         <label for="vorname-frau">2. Sämtliche Vornamen *</label>
+         <input type="text" name="vorname-frau" placeholder="Vorname" size="40" required>
+        </p>
+        <p>
+         <label for="strasse-frau">3. Straße Hausnummer (tatsächlicher Wohnsitz) *</label>
+         <input type="text" name="strasse-frau" placeholder="z.B.: Hauptstraße 84" size="40" required>
+        </p>
+        <p>
+         <label for="plz-frau">4. PLZ *</label>
+         <input type="number" name="plz-frau" placeholder="z.B.: 28865" minlength="5" maxlength="5" required>
+        </p>
+        <p>
+         <label for="ort-frau">5. Ort *</label>
+         <input type="text" name="ort-frau" placeholder="z.B.: Lilienthal" size="40" required>
+        </p>
+        <p>
+         <label for="staat-frau">6. Staatsangehörigkeit *</label>
+         <input type="text" name="staat-frau" placeholder="z.B.: deutsch" size="40" required>
+        </p>
+       </fieldset>
+       <fieldset>
+        <h3>II. Ehemann:</h3>
+        <p>
+         <label for="nachname-mann">1. Nachname *</label>
+         <input type="text" name="nachname-mann" placeholder="Nachname" size="40" required>
+        </p>
+        <p>
+         <label for="vorname-mann">2. Sämtliche Vornamen *</label>
+         <input type="text" name="vorname-mann" placeholder="Vorname" size="40" required>
+        </p>
+        <p>
+         <label for="strasse-mann">3. Straße und Hausnummer (tatsächlicher Wohnsitz) *</label>
+         <input type="text" name="strasse-mann" placeholder="z.B.: Hauptstraße 84" size="40" required>
+        </p>
+        <p>
+         <label for="plz-mann">4. PLZ *</label>
+         <input type="number" name="plz-frau" placeholder="z.B.: 28865" minlength="5" maxlength="5" required>
+        </p>
+        <p>
+         <label for="ort-mann">5. Ort *</label>
+         <input type="text" name="ort-mann" placeholder="z.B.: Lilienthal" size="40" required>
+        </p>
+        <p>
+         <label for="staat-mann">6. Staatsangehörigkeit *</label>
+         <input type="text" name="staat-mann" placeholder="z.B.: deutsch" size="40" required>
+        </p>
+       </fieldset>
+       <fieldset>
+        <h3>III. Letzte gemeinsame Adresse</h3>
+        <p>
+         <label for="strasse-zus">1. Straße und Hausnummer *</label>
+         <input type="text" name="strasse-zus" placeholder="z.B.: Hauptstraße 84" size="40" required>
+        </p>
+        <p>
+         <label for="plz-zus">2. PLZ *</label>
+         <input type="number" name="plz-zus"  placeholder="z.B.: 28865" minlength="5" maxlength="5" required>
+        </p>
+        <p>
+         <label for="ort-zus">3. Ort *</label>
+         <input type="text" name="ort-zus" placeholder="z.B.: Lilienthal" size="40" required>
+        </p>
+       </fieldset>
+       <fieldset>
+        <h3>IV. Heiratsdaten</h3>
+        <p>
+         <label for="hochzeit-ort">1. Ort der Heirat *</label>
+         <input type="text" name="hochzeit-ort" placeholder="z.B.: Lilienthal" size="40" required>
+        </p>
+        <p>
+         <label for="hochzeitstag">2. Datum *</label>
+         <input type="text" name="hochzeitstag"  placeholder="z.B.: 28865" minlength="5" maxlength="5" required>
+        </p>
+        <p>
+         <label for="heiratsregister">3. Nummer im Heiratsregister *</label>
+         <input type="number" name="heiratsregister" placeholder="z.B.: HIER FRAUKE FRAGEN" size="40" required>
+        </p>
+        <p>
+         <label for="heiratsurkunde">Kopie der Heiratsurkunde (nur PDF Dateien möglich!) *</label>
+         <input type="file" name="heiratsurkunde" placeholder="Hier Dateipfad eintragen" size="50" accept="application/pdf" required>
+        </p>
+       </fieldset>
+       <h2>B. Angaben zur Scheidung</h2>
+       <fieldset>
+        <h3>I. Den Scheidungsantrag will stellen: *</h3>
+        <p>
+         <input type="radio" name="antragstellung" value="die Ehefrau" checked="checked">die Ehefrau 
+         <input type="radio" name="antragstellung" value="der Ehemann">der Ehemann
+        </p>
+        </fieldset>
+        <fieldset>
+         <h3>II. Trennungsdatum</h2>
+         <p>Wir leben seit dem
+          <label for="trennungsdatum">Trennungsdatum *</label>
+          <input type="date" name="trennungsdatum" placeholder="z.B.: 30.06.2016" size="40" required> getrennt 
+          (mindestens knapp 1 Jahr! Auch eine Trennung innerhalb der gemeinsamen Wohnung kann ausreichen. Im 
+          Zweifel bitte bei uns nachfragen).
+         </p>
+        </fieldset>
+        <fieldset>
+         <h3>III. Einer der Ehegatten ist aus der gemeinsamen Wohnung ausgezogen *</h3>
+         <p>
+          <input type="radio" name="auszug" value="nein" checked="checked">nein
+          <input type="radio" name="auszug" value="die Ehefrau">ja und zwar die Ehefrau 
+          <input type="radio" name="auszug" value="der Ehemann">ja und zwar der Ehemann
+         </p>
+        </fieldset>
+        <fieldset>
+         <h3>IV. Gemeinsame minderjährige Kinder sind vorhanden *</h3>
+         <p>
+          <input type="radio" name="kinder" value="nein" checked="checked">nein
+          <input type="radio" name="kinder" value="ja">ja<br>
+          <label for="kinder-beschreibung">Namen und Geburtsdaten der Kinder</label>
+          <textarea name="kinder-beschreibung" placeholder="z.B.: Max Mustermann, *02.05.2003" cols="40" rows="10">
+          </textarea>
+         </p>
+        </fieldset>
+        <fieldset>
+         <h3>V. Das Kind / die Kinder lebt / leben *</h3>
+         <p>
+          <input type="radio" name="wohnort-kinder" value="bei der Ehefrau" checked="checked">bei der Ehefrau
+          <input type="radio" name="wohnort-kinder" value="beim Ehemann">beim Ehemann
+         </p>
+        </fieldset>
+        <fieldset>
+         <h3>VI. Das Sorgerecht für das Kind / die Kinder soll erhalten *</h3>
+         <p>
+          <input type="radio" name="sorgerecht" value="die Ehefrau" checked="checked">bei der Ehefrau
+          <input type="radio" name="sorgerecht" value="der Ehemann">beim Ehemann
+          <input type="radio" name="sorgerecht" value="beide gemeinsam">die Ehegatten gemeinsam
+          <input type="radio" name="sorgerecht" value="andere Lösung">andere Regelung
+         </p>
+        </fieldset>
+        <fieldset>
+         <h3>VII. Der Scheidung stimmt der andere Ehegatte zu *</h3>
+         <p>
+          <input type="radio" name="zustimmung-ehegatten" value="nein" checked="checked">nein
+          <input type="radio" name="zustimmung-ehegatten" value="ja">ja
+         </p>
+        </fieldset>
+        <fieldset>
+         <h3>VIII. Es gibt einen Ehevertrag *</h3>
+         <p>
+          <input type="radio" name="ehevertrag-jn" value="nein" checked="checked">nein
+          <input type="radio" name="ehevertrag-jn" value="ja">ja
+          <label for="ehevertrag">Ehevertrag bitte einfügen (nur PDF Dateien möglich!) *</label>
+          <input type="file" name="ehevertrag" placeholder="Hier Dateipfad eintragen" size="50" accept="application/pdf">
+         </p>
+        </fieldset>
+        <fieldset>
+         <h3>IX. Es gibt eine notarielle Scheidungsfolgenvereinbarung *</h3>
+         <p>
+          <input type="radio" name="scheidungsfolgenvereinbarung-jn" value="nein" checked="checked">nein
+          <input type="radio" name="scheidungsfolgenvereinbarung-jn" value="ja">ja
+          <label for="scheidungsfolgenvereinbarung">Scheidungsfolgenvereinbarung bitte einfügen (nur PDF Dateien möglich!) *</label>
+          <input type="file" name="scheidungsfolgenvereinbarung" placeholder="Hier Dateipfad eintragen" size="50" accept="application/pdf">
+         </p>
+        </fieldset>
+        <fieldset>
+         <h3>X. Es wurde eine Regelung über den Ehegattenunterhalt getroffen *</h3>
+         <p>
+          <input type="radio" name="ehegattenunterhalt-jn" value="nein" checked="checked">nein
+          <input type="radio" name="ehegattenunterhalt-jn" value="ja">ja
+          <label for="ehegattenunterhalt">Regelung bitte einfügen (nur PDF Dateien möglich!) *</label>
+          <input type="file" name="ehegattenunterhalt" placeholder="Hier Dateipfad eintragen" size="50" accept="application/pdf">
+         </p>
+        </fieldset>
+        <fieldset>
+         <h3>XI. Es wurde eine Regelung über die Ehewohnung getroffen *</h3>
+         <p>
+          <input type="radio" name="ehewohnung-jn" value="nein" checked="checked">nein
+          <input type="radio" name="ehewohnung-jn" value="ja">ja
+          <label for="ehewohnung">Regelung bitte einfügen (nur PDF Dateien möglich!) *</label>
+          <input type="file" name="ehewohnung" placeholder="Hier Dateipfad eintragen" size="50" accept="application/pdf">
+         </p>
+        </fieldset>
+        <fieldset>
+         <h3>XII. Es wurde eine Regelung über den Hausrat getroffen *</h3>
+         <p>
+          <input type="radio" name="hausrat-jn" value="nein" checked="checked">nein
+          <input type="radio" name="hausrat-jn" value="ja">ja
+          <label for="hausrat">Regelung bitte einfügen (nur PDF Dateien möglich!) *</label>
+          <input type="file" name="hausrat" placeholder="Hier Dateipfad eintragen" size="50" accept="application/pdf">
+         </p>
+        </fieldset>
+        <fieldset>
+         <h3>XIII. Es wurde folgende Regelung über den Kindesunterhalt getroffen *</h3>
+         <p>
+          <input type="radio" name="kindesunterhalt-jn" value="nein" checked="checked">nein
+          <input type="radio" name="kindesunterhalt-jn" value="ja">ja<br>
+          <input type="radio" name="kindesunterhalt-2" value="nach der Duuml;sseldorfer Tabelle" checked="checked">nach der Düsseldorfer Tabelle
+          <input type="radio" name="kindesunterhalt-2" value="anders">anders
+          <label for="kindesunterhalt">Wenn anders, Regelung bitte einfügen (nur PDF Dateien möglich!) *</label>
+          <input type="file" name="kindesunterhalt" placeholder="Hier Dateipfad eintragen" size="50" accept="application/pdf">
+         </p>
+        </fieldset>
+        <fieldset>
+         <h3>XIV. Es wurde folgende Regelung über das Besuchsrecht getroffen *</h3>
+         <p>
+          <textarea name="besuch-regelung" placeholder="z.B.: Max Mustermann, *02.05.2003" cols="40" rows="10">
+          </textarea>
+          <label for="besuch-regelung-pdf">bitte ggf. Vereinbarung einfügen (nur PDF Dateien möglich!) *</label>
+          <input type="file" name="besuch-regelung-pdf" placeholder="Hier Dateipfad eintragen" size="50" accept="application/pdf">
+         </p>
+         </p>
+        </fieldset>
+        <fieldset>
+         <h3>XV. Versorgungsausgleich ausgeschlossen *</h3>
+         <p>
+          <input type="radio" name="versorgungsausgleich-jn" value="nein" checked="checked">nein, nicht ausgeschlossen
+          <input type="radio" name="versorgungsausgleich-jn" value="ja">ja, ausgeschlossen durch notariellen Vertrag
+          <label for="versorgungsausgleich">Urkunde bitte einfügen! (nur PDF Dateien möglich!) *</label>
+          <input type="file" name="versorgungsausgleich" placeholder="Hier Dateipfad eintragen" size="50" accept="application/pdf">
+         </p>
+         </p>
+        </fieldset>
+        <fieldset>
+         <h3>XVI. Nettoverdienst</h3>
+         <p>
+          <label for="netto-frau">a) Nettoverdienst der Ehefrau *</label>
+          <input type="number" name="netto-frau" placeholder="z.B.: 1234€" size="40" required>
+         </p>
+         <label for="beleg-netto-frau">Belege bitte beifügen (nur PDF Dateien möglich!) *</label>
+          <input type="file" name="beleg-netto-frau" placeholder="Hier Dateipfad eintragen" size="50" accept="application/pdf" required>
+         <p>
+          <label for="netto-mann">b) Nettoverdienst des Ehemanns *</label>
+          <input type="number" name="netto-mann" placeholder="z.B.: 1234€" size="40" required>
+         </p>
+         <label for="beleg-netto-mann">Belege bitte beifügen (nur PDF Dateien möglich!) *</label>
+          <input type="file" name="beleg-netto-mann" placeholder="Hier Dateipfad eintragen" size="50" accept="application/pdf" required>
+        </fieldset>
+        <h2>C. Weitere Angaben</h2>
+        <fieldset>
+         <p>
+          <label for="fax">a) Ihre Faxnummer </label>
+          <input type="number" name="fax" placeholder="z.B.: 04298 4680991" size="40">
+         </p>
+         <p>
+          <label for="tel">b) Ihre Telefonnummer *</label>
+          <input type="tel" name="tel" placeholder="z.B.: 04298 4680990" size="40" required>
+         </p>
+         <p>
+          <input type="checkbox" name="rueckruf" size="40" value="Ich bitte um einen Rückruf" required>
+          <label for="rueckruf">Ich bitte um einen Rückruf *</label>
+         </p>
+         <p>
+          <label for="email">c) Ihre E-Mailadresse *</label>
+          <input type="email" name="email" placeholder="z.B.: eickhoff-b@gmx.de" size="40" required>
+         </p><p>
+          <label for="bemerkungen">Fragen, Mitteilungen an Rechtsanwältin Eickhoff-Bünemann *</label>
+          <textarea name="bemerkungen" placeholder="" cols="40" rows="20">
+          </textarea>
+         </p>
+        </fieldset>
+        <hr>
+        <h2> Vollmacht:</h2>
+        <p>Hiermit erteile ich Frau Rechtsanwältin Ute Mix aus der Anwaltskanzlei Mix, Parkallee 117, 28209 Bremen, folgende Vollmacht:<br>
+         Frau Rechtsanwältin Ute Mix wird hiermit die Vollmacht zur Vertretung meiner Interessen in meiner Familienrechtsangelegenheit erteilt.<br>
+         Die Vollmacht umfasst die Befugnisse zur Antragstellung auf Scheidung der Ehe, zum Abschluss von Vereinbarungen über Scheidungsfolgen 
+         sowie zur Stellung von Anträgen auf Erteilung von Renten- und sonstigen Versorgungsauskünften.
+        </p>
+        <fieldset>
+         <p>
+          <input type="checkbox" name="vollmacht" size="40" value="Ich erteile die Vollmacht *" required>
+          <label for="vollmacht">Ja, hiermit erteile ich die Vollmacht. *</label>
+         </p>
+        </fieldset>
+        <p>Sollten Sie noch Fragen haben, bevor Sie die Vollmacht erteilen können Sie diese mit Frau Eickhoff-Bünemann per E-Mail
+         klären (<a href="mailto:eickhoff-b@gmx.de">eickhoff-b@gmx.de</a>).
+        </p>
+        <hr>
+        <fieldset>
+         <p>
+          <label for="signature">Ort, Datum, Vor- und Nachname *</label>
+          <input type="text" name="signature" placeholder="z.B.: Lilienthal, 05.06.2017, Frauke Eickhoff-Bünemann" size="40">
+         </p>
+         <p>
+          <input type="checkbox" name="datenschutz" size="40" value="Ich stimme der Datenschutzerklärung zu *" required>
+          <label for="datenschutz">Ich habe die <a href="impressum.html">Datenschutzerklärung</a> gelesen und stimme zu. *</label>
+         </p>
+        </fieldset>
+        <input type="submit" name="abschicken" value="abschicken">
+      </form>     
+    </article>
+    <aside><p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu 
+     feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril 
+     delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,</p></aside>
+    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu 
+     feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril 
+     delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,</p>
+
+   <footer><p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu 
+     feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril 
+     delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,</p></footer>
+    <!-- browser-statistik.de - Welche Browser werden benutzt? -->
+ <img src="https://www.browser-statistik.de/browser.png?style=0" width="1" height="1" style="border: 0px;" alt=""/>
+<!-- browser-statistik.de - Ende -->
+
+  </body>
+</html>

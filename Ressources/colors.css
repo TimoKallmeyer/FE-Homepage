@@ -1,0 +1,24 @@
+/* CSS - Cascading Style Sheet */
+/* Palette color codes */
+/* Palette URL: http://paletton.com/#uid=33Q0u0kvyO7gKT+liNxPivIHAmr */
+
+.color-primary { color: #1D46DE }	/* Main Primary color */
+.color-primary-1 { color: #8097ED }
+.color-primary-2 { color: #5B77DC }
+.color-primary-3 { color: #072BAB }
+.color-primary-4 { color: #092179 }
+
+.color-secondary-1 { color: #FFDB04 }	/* Main Secondary color (1) */
+.color-secondary-1-1 { color: #FFEC7A }
+.color-secondary-1-2 { color: #FFE655 }
+.color-secondary-1-3 { color: #FDD800 }
+.color-secondary-1-4 { color: #B39900 }
+
+.color-secondary-2 { color: #FF8004 }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #FFBC7A }
+.color-secondary-2-2 { color: #FFAA55 }
+.color-secondary-2-3 { color: #FD7D00 }
+.color-secondary-2-4 { color: #B35900 }
+
+.harmonious-dark { color: #383c4a }
+.harmonious-light { color: # f9f9fa }

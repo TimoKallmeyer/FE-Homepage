@@ -1,0 +1,8 @@
+ErrorDocument 404 /404.html
+SetEnv TZ Europe/Berlin
+IndexIgnore *
+DefaultLanguage de-DE
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]

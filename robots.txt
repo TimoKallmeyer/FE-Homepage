@@ -1,0 +1,7 @@
+# robots.txt zu http://rechtsanwaeltin-lilienthal.de/
+
+User-agent: *
+Disallow: /images/
+Disallow: /kontakt-true.html
+Disallow: /kontakt-false.html
+Disallow: /404.html
