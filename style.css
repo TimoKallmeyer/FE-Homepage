@@ -168,19 +168,31 @@ article li {
 article ul {
     padding-bottom: 1.5em;
 }
+div.img-text-link {
+    position: relative;
+    margin-top: 10px;
+}
+.img-text-link img {
+    display: inline-block;
+    position: absolute;
+    height: 32px;
+    width: 32px;
+}
+.img-text-link a {
+    display: inline-block;
+}
 /* Mobile first - alle Dokument-Blöcke bekommen 100% Breite */
-
 header,
 nav,
 nav a,
 article,
 aside,
 footer {
-	padding: 1em;
-	margin: 0em;
-	flex: 1 100%;
-	align-items: left;
-  justify-content: flex-start;
+    padding: 1em;
+    margin: 0em;
+    flex: 1 100%;
+    align-items: left;
+    justify-content: flex-start;
 }
 #logo {
   flex: 1 auto;
@@ -190,13 +202,13 @@ footer {
   padding-bottom: 0.1em;
 }
 header {
-	background: #ffffff;
-	-webkit-flex-flow: column;
-	display: flex;
-	flex-flow: column;
-	padding: 0em;
-  align-items: center;
-  justify-content: center;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    -webkit-flex-flow: column;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
 }
 header * {
 	flex: 1 1 0%;
@@ -226,8 +238,8 @@ nav li {
 }
 nav a {
 	display: inline-block;
-	width: 95%;
-  padding: 0.5em;
+	width: 75%;
+    padding: 0.5em;
 	border-bottom: solid 0.1em;
 	border-color: var(--color-primary);
 	margin: 0.5em;
@@ -265,7 +277,7 @@ nav a:hover {
 	border-bottom: solid 0.15em;
 }
 .drop-sub {
-  width: 90%;
+  width: 80%;
   background-color: var(--color-primary-3);
   margin-left: auto;
   margin-right: 0;
@@ -347,7 +359,7 @@ footer p {
   padding: 0.5em;
   margin: 0.5em;
 }
-}
+
 
 /* Smart Phones und Tablets mit mittlerer Auflösung */
 
@@ -366,7 +378,7 @@ nav ul ul {
  margin: 0;
  padding: 0;
  position: absolute;
- font: 0/0 serif;Unternavigation ausblenden
+ font: 0/0 serif; /*Unternavigation ausblenden*/
  z-index: -1;
  background-color: var(--color-primary-3);
 }
@@ -426,7 +438,7 @@ nav ul ul {
  margin: 0;
  padding: 0;
  position: absolute;
- font: 0/0 serif;Unternavigation ausblenden
+ font: 0/0 serif;/*Unternavigation ausblenden*/
  z-index: -1;
  background-color: var(--color-primary-3);
 }
