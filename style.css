@@ -96,21 +96,6 @@ p {
   height: 100%;
   background-color: var(--harmonious-dark);
 }
-.contact-fon::before {
-  content: "\1F57F\0020\0020";
-}
-.contact-fax::before {
-  content: "\1F5B7\0020\0020";
-}
-.contact-mail::before {
-  content: "\1F582\0020\0020";
-}
-.contact-tram::before {
-  content: "\1F177\0020\0020";
-}
-.contact-park::before {
-  content: "\1F17F\0020\0020";
-}
 h1,
 h2,
 h3,
@@ -257,29 +242,27 @@ nav a {
 	color: #ffffff;
 
 }
-footer a {
-
-	width: 95%;
-  padding: 0.5em;
-  padding-left: 3em;
-  padding-right: 3em;
-	border-bottom: solid 0.1em;
-	border-color: var(--color-primary);
-	margin: 0.5em;
-	font-weight: bold;
-	text-decoration: none;
-	text-align: center;
-	color: #ffffff;
-
+.importantLink {
+    width: 95%;
+    padding: 0.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-bottom: solid 0.1em;
+    border-color: var(--color-primary);
+    margin: 0.5em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
 }
 
-footer a:focus,
+.importantLink:focus,
 nav a:focus {
-color: var(--color-secondary-2);
-	text-decoration: none;
-	border-bottom: solid 0.1em;
+    color: var(--color-secondary-2);
+    text-decoration: none;
+    border-bottom: solid 0.1em;
 }
-footer a:hover,
+.importantLink:hover,
 nav a:hover {
 	text-decoration: none;
 	border-bottom: solid 0.15em;
@@ -367,6 +350,54 @@ footer p {
   padding: 0.5em;
   margin: 0.5em;
 }
+aside .imgLink {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+aside .imgLink a {
+    text-decoration: none;
+    color: var(--color-primary);
+    border-bottom: solid 3px;
+    border-color: #fff;
+}
+aside .imgLink a:hover, aside .imgLink a:focus, aside .imgLink a:active {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+aside .imgLink_IMG {
+    height: 24px;
+    width: 24px;
+    top: 6px;
+}
+aside .imgLink_text {
+    line-height: 24px;
+    text-decoration: solid;
+}
+.sneakylink {
+    text-decoration: none;
+    color: #fff;
+}
+.sneakylink:hover, .sneakylink:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Smart Phones und Tablets mit mittlerer Auflösung */
