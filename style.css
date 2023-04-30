@@ -350,26 +350,26 @@ footer p {
   padding: 0.5em;
   margin: 0.5em;
 }
-aside .imgLink {
+aside .imgLink, article .imgLink {
     padding-left: 5px;
     padding-right: 5px;
 }
-aside .imgLink a {
+aside .imgLink a, article .imgLink a {
     text-decoration: none;
     color: var(--color-primary);
     border-bottom: solid 3px;
     border-color: #fff;
 }
-aside .imgLink a:hover, aside .imgLink a:focus, aside .imgLink a:active {
+aside .imgLink a:hover, aside .imgLink a:focus, aside .imgLink a:active, article .imgLink a:hover, article .imgLink a:focus, article .imgLink a:active {
     border-color: var(--color-primary);
     color: var(--color-primary);
 }
-aside .imgLink_IMG {
+aside .imgLink_IMG, article .imgLink_IMG {
     height: 24px;
     width: 24px;
     top: 6px;
 }
-aside .imgLink_text {
+aside .imgLink_text, article .imgLink_text {
     line-height: 24px;
     text-decoration: solid;
 }
